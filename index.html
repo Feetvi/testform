@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>test</title>
+	<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="funcs.js"></script>
+</head>
+<body>
+	<div class="content">
+		<h1>Dokumentenupload</h1>
+		<hr />
+		<p>So geht alles noch schneller! Nutzen Sie die Upload-Funktion. Einfach Kopie Ihres Ausweises oder Reisepasses sowie einen aktuellen Lohnnachweis hochladen.</p>
+		<br>
+		<div class="flex-container">
+			<div class="flex-item item1">Ausweis</div>
+			<div class="flex-item item2">
+				<input type="text" id="filename1" class="filename" disabled>
+			</div>
+			<div class="flex-item item3">
+				<div class="file-upload first">
+					<label>
+						<input type="file" name="file">
+						<span>Wählen</span>
+					</label>
+				</div>
+			</div>
+		</div>
+		<div class="flex-container">
+			<div class="flex-item item1">Lohnnachweis</div>
+			<div class="flex-item item2">
+				<input type="text" id="filename2" class="filename" disabled>
+			</div>
+			<div class="flex-item item3">
+				<div class="file-upload second">
+					<label>
+						<input type="file" name="file">
+						<span>Wählen</span>
+					</label>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
